@@ -1,0 +1,31 @@
+P Sat Aug 25 2018 03:41:18:823 log file opened
+P Sat Aug 25 2018 03:41:18:823 initial gw/logging ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+X Sat Aug 25 2018 03:41:18:823 gateway started, pid=23771
+P Sat Aug 25 2018 03:41:18:823 gw/logging = ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+S Sat Aug 25 2018 03:41:18:823 simulation mode deactivated
+S Sat Aug 25 2018 03:41:18:823 gw/reg_no_conn_info: 1
+S Sat Aug 25 2018 03:41:18:833 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found, use internal default (mode=0)
+S Sat Aug 25 2018 03:41:18:833  P TP=* USER=* USER-HOST=* HOST=*
+S Sat Aug 25 2018 03:41:18:833 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found
+S Sat Aug 25 2018 03:41:18:833  P USER=* HOST=* TP=*
+S Sat Aug 25 2018 03:41:18:834 reginfo file /usr/sap/CP1/ASCS20/data/reginfo not found, use internal default (mode=0)
+S Sat Aug 25 2018 03:41:18:834  P TP=*
+S Sat Aug 25 2018 03:41:18:834 prxyinfo file /usr/sap/CP1/ASCS20/data/prxyinfo not found
+X Sat Aug 25 2018 03:43:10:475 gateway stopped, pid=23771
+P Sat Aug 25 2018 03:43:10:475 log file closed
+P Sat Aug 25 2018 03:43:30:368 log file reopened
+P Sat Aug 25 2018 03:43:30:368 initial gw/logging ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+X Sat Aug 25 2018 03:43:30:368 gateway started, pid=25554
+P Sat Aug 25 2018 03:43:30:368 gw/logging = ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+S Sat Aug 25 2018 03:43:30:368 simulation mode deactivated
+S Sat Aug 25 2018 03:43:30:368 gw/reg_no_conn_info: 1
+S Sat Aug 25 2018 03:43:30:378 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found, use internal default (mode=0)
+S Sat Aug 25 2018 03:43:30:378  P TP=* USER=* USER-HOST=* HOST=*
+S Sat Aug 25 2018 03:43:30:378 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found
+S Sat Aug 25 2018 03:43:30:378  P USER=* HOST=* TP=*
+S Sat Aug 25 2018 03:43:30:378 reginfo file /usr/sap/CP1/ASCS20/data/reginfo not found, use internal default (mode=0)
+S Sat Aug 25 2018 03:43:30:378  P TP=*
+S Sat Aug 25 2018 03:43:30:378 prxyinfo file /usr/sap/CP1/ASCS20/data/prxyinfo not found
+X Sat Nov 17 2018 00:29:49:066 gateway stopped, pid=25554
+X Sat Nov 17 2018 00:29:49:066 time exceeded (day), open new log file
+P Sat Nov 17 2018 00:29:49:066 log file closed

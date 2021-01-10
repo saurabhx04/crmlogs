@@ -1,0 +1,480 @@
+
+---------------------------------------------------
+trc file: "dev_w49", trc level: 1, release: "753"
+---------------------------------------------------
+*
+*  ACTIVE TRACE LEVEL           1
+*  ACTIVE TRACE COMPONENTS      all, MJ
+*
+M sysno      70
+M sid        BP1
+M systemid   390 (AMD/Intel x86_64 with Linux)
+M relno      7530
+M patchlevel 0
+M patchno    201
+M intno      20170305
+M make       multithreaded, Unicode, 64 bit, optimized
+M profile    /usr/sap/BP1/SYS/profile/BP1_DVEBMGS70_sapbiwprp201
+M pid        1011
+M 
+M  
+M Tue May  5 00:29:36:359 2020
+M  kernel runs with dp version 55000(ext=119000) (@(#) DPLIB-INT-VERSION-0+55000-UC)
+M  length of sys_adm_ext is 524 bytes
+M  
+M Tue May  5 00:29:36:490 2020
+M  ThStart: taskhandler started
+M  ThInit: initializing UPD work process W49
+X  MM global diagnostic options set: 0
+M  ***LOG Q01=> ThInit, WPStart (Workp. 49 1 1011) [thxxhead.c   1092]
+M  
+M Tue May  5 00:29:39:765 2020
+M  ThInit: running on host sapbiwprp201
+I  MtxInit: 49 0 0
+M  calling db_connect ...
+B  Loading DB library '/usr/sap/BP1/DVEBMGS70/exe/dbhdbslib.so' ...
+B  Library '/usr/sap/BP1/DVEBMGS70/exe/dbhdbslib.so' loaded
+B  Version of '/usr/sap/BP1/DVEBMGS70/exe/dbhdbslib.so' is "753.02", patchlevel (0.201)
+C  Callback functions for dynamic profile parameter registered
+C  
+C  DBHDBSLIB : version 753.02, patch 0.201 (Make PL 0.201)
+C  HDB shared library (dbhdbslib) patchlevels (last 10)
+C    (0.201) SAP Support Package Stack Kernel 7.53 Patch Level 201 (note 2650112)
+C    (0.200) SAP Support Package Stack Kernel 7.53 Patch Level 200 (note 2637769)
+C    (0.110) Dbsl memory management optimized (note 2600632)
+C    (0.110) Bulk insert optimization (note 2576888)
+C    (0.100) SAP Support Package Stack Kernel 7.53 Patch Level 100 (note 2608318)
+C    (0.090) DB4: SQL-913 Locks on SQL Packages in the 749 Kernel (note 2581617)
+C    (0.026) Invalid column index at abap itab callback fixed (note 2548665)
+C    (0.019) Avoid SQL in signal handler (note 2525673)
+C    (0.018) Avoid trunction on numeric datatypes (note 2346984)
+C    (0.011) Row count calculation changed (note 2501455)
+C  
+C  
+C  Loading SQLDBC client runtime (pid=1011)...
+C  SQLDBC Module  : /usr/sap/BP1/hdbclient/libSQLDBCHDB.so
+C  SQLDBC Runtime : libSQLDBCHDB 1.00.120.100.1528812788
+C  SQLDBC client runtime is 1.00.120.100.1528812788
+C  connect property [CONNECTTIMEOUT = 1000000]
+C  
+C  Try to connect via secure store (DEFAULT) on connection 0 ...
+C  
+C Tue May  5 00:29:39:927 2020
+C  Attach to HDB : 1.00.122.18.1531375173 (fa/hana1sp12)
+C  fa/hana1sp12 : build_weekstone=0000.00.0
+C  fa/hana1sp12 : build_time=2018-07-12 08:12:28
+C  Database release is HDB 1.00.122.18.1531375173
+C  INFO : Database 'BP1/08' instance is running on 'hdbbiwbp1e'
+C  INFO : Connect to DB as 'SAPSR3', connection_id=400787
+C  INFO : DATA AGING feature is supported by HANA
+C  INFO : FDA feature is supported by HANA
+C  INFO : FAE with FDA feature is supported by HANA
+C  INFO : CACHEDVIEWTS feature is supported by HANA
+C  INFO : DEFERRED LOB WRITING is activated
+C  DB max. input host variables  : 32767
+C  DB max. statement length      : 104857600
+C  DB max. array size            : 100000
+C  use decimal precision as length
+C  ABAPVARCHARMODE is used
+C  use DBSL marker map
+C  INFO : DBSL buffer size = 1048576
+C  Command info enabled (1)
+C  Now I'm connected to HDB
+C  00: hdbbiwbp1e-BP1/08, since=20200505002939, ABAP= <unknown> (0)
+B  Connection 0 opened (DBSL handle 0)
+B  *-- dbmetadata DbVendorMetaData --------------*
+B  Connection   : R/3[0]
+B  DB vendor    : HDB,753.02
+B  DB vendor    : 7
+B  DBSL version : 753.02
+B  DBSL features
+B     maxstmtsize            : 104857600
+B     maxmarkercnt           : 32767
+B     maxincnt               : 32767
+B     maxlongsize            : 32768
+B     maxhistlongsize        : 32768
+B     minhistlongsize        : 0
+B     maxmarkersize          : 1
+B     autorpad               : 0
+B     stringspadded          : 0
+B     blk1obj1mod            : 1
+B     haverownum             : 0
+B     havepermanentstmts     : 0
+B  
+B Tue May  5 00:29:39:950 2020
+B     fupdlockperm           : 1
+B     fupdorder              : 1
+B     preferunionall         : 0
+B     prefer_join            : 0
+B     prefer_join_with_fda   : 1
+B     preferinitabopt        : 1
+B     useinputsize           : 0
+B     preferfixblocking      : 0
+B     maxblockingfactor      : 50
+B     minblockingfactor      : 0
+B     maxinblockingfactor    : 100
+B     mininblockingfactor    : 0
+B     maxunionblockingfactor : 0
+B     minunionblockingfactor : 0
+B     prefer_asterisk        : 15
+B     deferred_lob_writing   : 1
+B     prefer_count_big       : 0
+B     supports_fda_prot      : 1
+B     smallint_cast          : 0
+B     integer_division_mode  : 2
+B     set_session_variables_always: 1
+B     dck_cannot_use_limit   : 0
+B  FAE controls
+B     supports_fda_prot         : 1
+B     prefer_in_itab_opt        : 1
+B     prefer_union_all          : 0
+B     prefer_join               : 0
+B     prefer_join_with_fda      : 1
+B     prefer_fix_blocking       : 0
+B     max_blocking_factor       : 50
+B     min_blocking_factor       : 50
+B     max_in_blocking_factor    : 1024
+B     min_in_blocking_factor    : 1024
+B     max_union_blocking_factor : 20
+B     min_union_blocking_factor : 20
+B  DB feature mode
+B     views_parameters_unnamed  : 0
+B     views_with_parameters : 1
+B     release restricion        : true
+B     external_views : 1
+B  
+B Tue May  5 00:29:39:950 2020
+B     release restricion        : true
+B     TABLE_KEYCNT_MAX1 : 1
+B     release restricion        : true
+B     TABLE_KEYLEN_MAX1 : 1
+B     release restricion        : true
+B     TABLE_LEN_MAX1 : 1
+B     release restricion        : true
+B     AMDP_TABLE_FUNCTION : 1
+B     release restricion        : true
+B     CALL_DATABASE_PROCEDURE : 1
+B     release restricion        : true
+B     CALL_AMDP_METHOD : 1
+B     release restricion        : true
+B     itabs_in_from_clause : 1
+B     release restricion        : DBI_GE_DB_RELEASE_PREPUT(REL_752_768)
+B     limit_in_subselect_or_cte : 1
+B     release restricion        : DBI_GE_DB_RELEASE_PREPUT(REL_752_769)
+B     cte_in_correlated_subqueries : 1
+B     release restricion        : true
+B  Hint settings
+B     ABAP hints enabled : 1
+B     DBI hints enabled  : 1
+B     DBI hints enforced : 0
+B     upto limit         : 0
+B  Misc settings
+B     DB buffer size: 1048576
+B     Reserved characters: {null}
+B     UPTO handling: 3
+B     UPTO handling DELETE: 0
+B     COALESCE with lobs: 1
+B     FOR ALL ENTRIES exclude client condition: 1
+B  *------------- DbVendorMetaData --------------*
+C  INFO : SAP RELEASE (DB) = 740
+M  ThDbConnect: db_connect o.k.
+X  
+X Tue May  5 00:29:45:804 2020
+X  EmInit: MmSetImplementation( 2 ).
+X  MM global diagnostic options set: 0
+X  EmSetReserve: set EM reserve to 157 EM blocks
+X  <ES> client 49 initializing ....
+X  Linux: Kernel supports shared memory disclaiming
+X  Linux: using madvise(<pointer>, <size>, 9).
+X  ES initialized.
+X  mm.dump: set global maximum dump mem to 192 MB
+X  EsRegisterEmCheck: Register EmGetEsHandles at 1b0326d
+B  hook function dbdt_trace_lvl_callback registered. Current trace level is 1
+B  db_con_shm_ini:  WP_ID = 49, WP_CNT = 95, CON_ID = -1
+B  Start CursorInit
+B  TBI initializing semaphore lock manager ...
+B  tbi_get_buffer_size_mb() => table buffer size 655 MB
+B  tbi_get_dir_entries() => directory size 33000
+B  tbx_set_req: table buffer is configured with
+B    overall size          = 686817280 bytes
+B    directory             = 33000 entries
+B    protect_shm           = off
+B    displacement          = on
+B    request_unit          = 20000
+B    displ_timeout         = 80000
+B    inval_with_clear      = on
+B    displ_multiple_remove = on
+B    sync_reload           = 5
+B    inval_reload          = 5
+B    free_displ_perc       = 3
+B    req_displ_perc        = 5
+B    max_displ_perc        = 10
+B    max_size_perc         = 25
+B  dbtbxbuf: Buffer TBI64 (addr: 7ff79101a0e8, size: 686817280, end: 7ff7b9f1a0e8)
+B  DBI: init TBI BUFFER:  rc=0
+B  DbSqlObjectFactory created, max = 1000, useCache true
+B  DbStatementManager created, max = 1500, useCache true
+B  dbprotocol: table logging switched on for client '400'
+B  NTAB: ddntt_column_check(no_of_columns = 22): DBSQLTIMESTMP not found, COMPCNT found, VERSION found => DDNTT db_structure is 'B'
+B  NTAB: unicodelg of executable is 2, SVERS nametab: unicodelg = 2, version = 'B'
+B  NTAB: Lock entries before commit is enabled via rsdb/ntab/lock_entries_for_commit profile parameter setting.
+B  NTAB: Use mutex for access counter is enabled via rsdb/ntab/use_mutex_lock_for_access profile parameter setting.
+B  dbrda: Redirect database access is disabled via rsdb/rda profile parameter setting.
+B  DbDmlCursor::maxItabInvalidationThreshold = 20
+B  DB FDA shm initialized: ptr=7ff790919180 total_size_wp=1048576lu used_size_wp=1048576
+B  dbsync[db_syinit]: successfully attached to shared memory, sync_adm_p = 7ff7a47f9000
+B  dbsync[db_syinit]: Buffer synchronisation started with
+B    sync_concept      = SEQ_NR
+B    sendon            = 1
+B    bufreftime        = 120
+B    max_gap_wait_time = 60
+B    ddlog_del_time    = 60
+B    last_counter      = 31697631
+B    oldest_gap        = (2147483647,19700101000000)
+B    time_of_last_sync = 20200505002938
+B    MySysId           = 'sapbiwprp201        70'
+B  dbexpbuf[EXP_SHB]: successfully attached to shared memory
+B  dbexpbuf[EXP_SHB]: buffer installed with the following properties
+B    semKey             = 35
+B    shmKey             = 54
+B    wpCnt              = 95
+B    blockSize          = 512
+B    maxObjects         = 30000
+B    maxObjectSize      = 48374912
+B    freeListVectorSize = 489
+B    hashVectorSize     = 60013
+B    bufferSize         = 204800000
+B    maxBlocks          = 377929
+B    freeBlocksCnt      = 377929
+B    mutexVectorSize    = 60015, ADMIN_MUTEX = 60013, INVAL_MUTEX = 60014
+B    tracing            = 0
+B    forceChecks        = 0
+B    protectShm         = 0
+B  dbexpbuf[EXP_SHM]: successfully attached to shared memory
+B  dbexpbuf[EXP_SHM]: buffer installed with the following properties
+B    semKey             = 56
+B    shmKey             = 65
+B    wpCnt              = 95
+B    blockSize          = 512
+B    maxObjects         = 30000
+B    maxObjectSize      = 48375936
+B    freeListVectorSize = 17
+B    hashVectorSize     = 60013
+B    bufferSize         = 204800000
+B    maxBlocks          = 377937
+B    freeBlocksCnt      = 377937
+B    mutexVectorSize    = 60015, ADMIN_MUTEX = 60013, INVAL_MUTEX = 60014
+B    tracing            = 0
+B    forceChecks        = 0
+B    protectShm         = 0
+B  dbexpbuf[EXP_CUA]: successfully attached to shared memory
+B  dbexpbuf[EXP_CUA]: buffer installed with the following properties
+B    semKey             = 30
+B    shmKey             = 47
+B    wpCnt              = 95
+B    blockSize          = 512
+B    maxObjects         = 22500
+B    maxObjectSize      = 20919808
+B    freeListVectorSize = 587
+B    hashVectorSize     = 45007
+B    bufferSize         = 92160000
+B    maxBlocks          = 163436
+B    freeBlocksCnt      = 163436
+B    mutexVectorSize    = 45009, ADMIN_MUTEX = 45007, INVAL_MUTEX = 45008
+B    tracing            = 0
+B    forceChecks        = 0
+B    protectShm         = 0
+B  dbexpbuf[EXP_OTR]: successfully attached to shared memory
+B  dbexpbuf[EXP_OTR]: buffer installed with the following properties
+B    semKey             = 55
+B    shmKey             = 64
+B    wpCnt              = 95
+B    blockSize          = 256
+B    maxObjects         = 2000
+B    maxObjectSize      = 856640
+B    freeListVectorSize = 33
+B    hashVectorSize     = 4001
+B    bufferSize         = 4194304
+B    maxBlocks          = 13385
+B    freeBlocksCnt      = 13385
+B    mutexVectorSize    = 4003, ADMIN_MUTEX = 4001, INVAL_MUTEX = 4002
+B    tracing            = 0
+B    forceChecks        = 0
+B    protectShm         = 0
+M  
+M Tue May  5 00:29:45:921 2020
+M  SHM_PRES_BUF			(addr: 7fffe253b000, size: 90000384)
+M  ThCreateNoBuffer		allocated 2740152 bytes for 5000 entries at 7ff7aa038000
+M  ThCreateNoBuffer		index size: 15000 elems
+M  ThCreateVBAdm		allocated 33392 bytes (50 server) at 7ffff7e16000
+M  ICT: exclude compression: *.zip,*.rar,*.arj,*.z,*.gz,*.tar,*.lzh,*.cab,*.hqx,*.ace,*.jar,*.ear,*.war,*.jpg,*.jpeg,*.pdf,*.gzip,*.uue,*.bz2,*.iso,*.sda,*.sar,*.gif,*.png,*.swc,*.swf
+G  rscpInstLangInit: zcsa/installed_languages is static in this ABAP release
+G  RelWritePermissionForShm( pLocation = 120, pEnforce = 0 )
+G  GetWritePermissionForShm( pLocation =  99, pEnforce = 1 )
+G  RelWritePermissionForShm( pLocation = 100, pEnforce = 1 )
+S  *** init spool environment
+S  TSPEVJOB updates outside critical section: event_update_nocsec = 1
+S  initialize debug system
+T  Stack direction is downwards.
+T  debug control: prepare exclude for printer trace
+T  new memory block 7fffc76dd230
+S  spool kernel/ddic check: Ok
+S  using table TSP02FX for frontend printing
+S  3 spool work process(es) found
+S  frontend print via spool service enabled
+S  printer list size is 150
+S  printer type list size is 50
+S  queue size (profile)   = 300
+S  hostspool list size = 3000
+S  option list size is 30
+I  *** INFO  SHM 49 in POOL 40     2172 KB estimated      1632 KB real (    -540 KB    -25 %)
+S      found processing queue enabled
+S  found spool memory service RSPO-RCLOCKS at 7ff7aa2d6070
+S  doing lock recovery
+S  setting server cache root
+S  found spool memory service RSPO-SERVERCACHE at 7ff7aa2d7b80
+S    using messages for server info
+S  size of spec char cache entry: 297032 bytes (timeout 100 sec)
+S  size of open spool request entry: 2592 bytes
+S  immediate print option for implicitely closed spool requests is disabled
+M  ThrCreateShObjects		allocated 197416 bytes at 7fffe2485000
+I  MPI: dynamic quotas disabled.
+N  SncInit(): Initializing Secure Network Communication (SNC)
+N        AMD/Intel x86_64 with Linux (mt,ascii,SAP_UC/size_t/void* = 16/64/64)
+N        UserId="bp1adm" (7201127), envvar USER="bp1adm"
+N  SncInit():   found snc/data_protection/max=3, using 3 (Privacy Level)
+N  
+N Tue May  5 00:29:45:942 2020
+N  SncInit():   found snc/data_protection/min=2, using 2 (Integrity Level)
+N  SncInit():   found snc/data_protection/use=3, using 3 (Privacy Level)
+N  SncInit(): found  snc/gssapi_lib=/usr/sap/BP1/DVEBMGS70/exe/libsapcrypto.so
+N    File "/usr/sap/BP1/DVEBMGS70/exe/libsapcrypto.so" dynamically loaded as GSS-API v2 library.
+N    SECUDIR="/usr/sap/BP1/DVEBMGS70/sec" (from APPLICATION)
+N    The internal Adapter for the loaded GSS-API mechanism identifies as:
+N    Internal SNC-Adapter (Rev 1.1) to CommonCryptoLib
+N    Product Version = CommonCryptoLib 8.5.21 (Apr 17 2018) [AES-NI,CLMUL,SSE3,SSSE3]
+N  SncInit():   found:    snc/identity/as=p:CN=BP1, O=EMC, C=US
+N  SncInit(): Accepting  Cred:    "sapsso"  (0x0003) ok, lifetime=Indefinite
+N  SncInit(): Initiating Cred:    "sapsso"  (0x0003) ok, lifetime=Indefinite
+M  SNC (Secure Network Communication) enabled
+M  CCMS: SemInMgt: Initializing Semaphore Management in AlAttachShm_Doublestack.
+M  CCMS: SemInit: Semaphore 38 initialized by AlAttachShm_Doublestack.
+E  
+E Tue May  5 00:29:46:197 2020
+E  EnqClientEnv: Register calls for begin (0x1fbb290) and end (0x1fbb4e0) of enqueue calls
+A  PXA: using abap/buffersize              5000000
+A  abStoreSetDiagMode: set ABAP mm diag mode to OFF
+O  ab_pbinit: max_map_count = 2000000: ok.
+O  ab_pbinit: Program generation trace switched on.
+O  
+O  ---PXA-------------------------------------------
+O  PXA INITIALIZATION
+O  ab_pbinit: Locked PXA-Semaphore.
+O  ab_pbinit: System page size: 4kb, total admin_size: 471488kb, dir_size: 116480kb.
+O  allocatePxaDataSpace: Attached to PXA (address 7ff5c28fa000 - 7ff6f3bca000, size 5000000K, 4 fragments of 1132128K )
+O  ab_pbinit: Using a guard page at PXA start to protect parameters and release info.
+O  
+O Tue May  5 00:29:46:299 2020
+O  ab_pbinit: abap/pxa = shared protect gen_remote
+O  ab_pbinit: checking structure sizes: 848|280|16
+O  PXA INITIALIZATION FINISHED
+O  ---PXA-------------------------------------------
+O  
+A  ATRA: pfclock execution time = 0 (unit: 100 nano seconds)
+A  abap/force_local_update_task=0
+A  ABAP ShmAdm attached (addr=7ffeff9a3000 leng=314556416 end=7fff1259f000)
+A  >> Shm MMADM area (addr=7fff040514f0 leng=3699072 end=7fff043d8670)
+A  >> Shm MMDAT area (addr=7fff043d9000 leng=236740608 end=7fff1259f000)
+A  RFC rfc/signon_error_log = -1
+A  RFC rfc/dump_connection_info = 0
+A  RFC rfc/dump_client_info = 0
+A  RFC rfc/cp_convert/ignore_error = 1
+A  RFC rfc/cp_convert/conversion_char = 23
+A  RFC rfc/wan_compress/threshold = 251
+A  RFC rfc/recorder_pcs not set, use defaule value: 2
+A  RFC rfc/delta_trc_level not set, use default value: 0
+A  RFC rfc/no_uuid_check not set, use default value: 0
+H  
+H Tue May  5 00:29:46:410 2020
+H  HTTP> Parameter icf/ssocookie_mandatory set to 0
+H  HTTP> Parameter icf/cors_enabled set to 0
+H  UCON> ReadProfileParams: Value for checking vhost: 0.
+B  dbtran INFO (init_connection '<DEFAULT>' [HDB:753.02]):
+B   max_blocking_factor       =  50,  min_blocking_factor         =  50,
+B   max_in_blocking_factor    =1024,  min_in_blocking_factor      =1024,
+B   max_union_blocking_factor =  20,  min_union_blocking_factor   =  20,
+B   prefer_union_all          =   0,  prefer_join                 =   0,
+B   prefer_fix_blocking       =   0,  prefer_in_itab_opt          =   1,
+B   convert AVG               =   1,  alias table FUPD            =   0,
+B   escape_as_literal         =   0,                                   
+B   select *                  =0x0f,  character encoding          = STD / <none>:-,
+B   use_hints                 = abap->1, dbif->0x1, upto->0
+V  Attached to Coverage Analyzer shared memory:
+V  address: 7ff5bb5f8000, size: 7300000
+A  ShmProtector: protection enabled for SCGD
+Y  dyWpInit
+Y    ztta/dynpro_area 800000
+Y  resize dynpro_area 0 800000
+Y    ztta/cua_area    500000
+Y    ztta/diag_area   250000
+Y  resize diag_area 0 250000
+N  MskiInitLogonTicketCacheHandle: Logon Ticket cache pointer retrieved from shared memory.
+N  MskiInitLogonTicketCacheHandle: Workprocess runs with Logon Ticket cache.
+W  =================================================
+W  === ipl_Init() called
+W    ipl_Init(): wp task type is 2:UPD, skip initialization
+W  === ipl_Init() returns 0, ITSPE_OK: OK
+W  =================================================
+N  VSI: WP init in ABAP VM completed with rc=0
+N  
+N Tue May  5 00:29:46:635 2020
+N  SsfSapSecin: getenv(SECUDIR)=="/usr/sap/BP1/DVEBMGS70/sec"
+N  
+N  =================================================
+N  === SSF INITIALIZATION:
+N  ===...SSF Security Toolkit name SAPSECULIB .
+N  ===...SSF library is /usr/sap/BP1/DVEBMGS70/exe/libsapcrypto.so .
+N  ===...SSF default hash algorithm is SHA1 .
+N  ===...SSF default symmetric encryption algorithm is AES128-CBC .
+N  ===...SSF lib codepage is set to 1 .
+N  ===...SSF FIPS 140-2 mode is disabled .
+N  ===...SECUDIR="/usr/sap/BP1/DVEBMGS70/sec"
+N  ===...loading of Security Toolkit successfully completed.
+N  ===   CommonCryptoLib 8.5.21 (Apr 17 2018) [AES-NI,CLMUL,SSE3,SSSE3]
+N  =================================================
+N  
+N Tue May  5 00:29:50:326 2020
+N  SignInit: successfully obtained handle for Security Context cache
+N  SPNegoInit: SPNego disabled ("spnego/enable" not set to 1)
+M  JrfcVmcRegisterNativesDriver o.k.
+M  ThrtAmcInit: use DB table AMC_RECEIVER for AMC dispatching
+M  etd_event_sender/enable: 0
+M  etd_event_sender/server: HOST=, PORT=0, SEND_METHOD=DATAGRAM
+M  etd_event_sender/ssl_config: not defined
+M  AdAdjustBufferForLongMessages: maximal number of AD records is 10000, scratch len = 1040036 bytes
+M  Set restart flag on 0 MB os heap (val=0)
+A  
+A Tue May  5 00:29:52:571 2020
+A  AppServerTimeSync, checkLocalTime():
+A    Initializing local WP variables:
+A    zdate_LastLocalTime with 1588652992
+A    zdate_LastLocalBias with 0
+O  ab_CheckGenerTrace: ***GENER* Trace switched off ***
+B  DBREPO: MAJOR_VERS part of REPOLOAD primary key
+B  DBREPO: set new access functions for table REPOLOAD
+C  FDA DB protocol version from connection 0 = 1
+E  Enqueue Info: enque/use_pfclock2 = FALSE
+E  Profile-Parameter: enque/sync_dequeall = 0
+M  
+M Tue May  5 00:30:07:250 2020
+M  ProcessHandler::handleRequest: received opcode DP_PROC_OPCODE_TERMINATE for W49, pid 1011
+M  ThWpRestart: restart wp (pid=1011) automatically
+B  Disconnecting from ALL connections:
+B  Wp  Hdl ConName          ConId     ConState     TX  BC  OC  HC  PRM RCT INF TIM MAX OPT Date     Time   DBUser                           ISO DBHost            Program                                 
+B  049 000 R/3              000000000 INACTIVE     NO  NO  000 NO  YES NO  NO  000 255 255 20200505 002939 SAPSR3                           DEF hdbbiwbp1e                                                
+C  Disconnecting from connection 0 ...
+C  Now I'm disconnected from HDB
+B  Disconnected from connection 0
+B  statistics db_con_commit (com_total=4, com_tx=1)
+B  statistics db_con_rollback (roll_total=0, roll_tx=0)
+M  ***LOG Q02=> wp_halt, WPStop (Workp. 49 1011) [dpuxtool.c   317]

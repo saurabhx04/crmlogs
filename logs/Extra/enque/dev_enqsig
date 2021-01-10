@@ -1,0 +1,21 @@
+
+---------------------------------------------------
+trc file: "dev_enqsig", trc level: 1, release: "742"
+---------------------------------------------------
+
+[Thr 140288917929376] Sat Feb 15 03:28:31 2020
+[Thr 140288917929376] tracefile dev_enqsig, tracelevel 1, pid 2106
+[Thr 140288917929376] added signal 1
+[Thr 140288917929376] added signal 2
+[Thr 140288917929376] added signal 3
+[Thr 140288917929376] added signal 6
+[Thr 140288917929376] added signal 10
+[Thr 140288917929376] added signal 12
+[Thr 140288917929376] added signal 15
+[Thr 140288917929376] added signal 21
+[Thr 140288917929376] added signal 22
+[Thr 140288917929376] added signal 23
+[Thr 140288917929376] added signal 24
+[Thr 140288917929376] added signal 26
+[Thr 140288917929376] added signal 28
+[Thr 140288917929376] added signal 30

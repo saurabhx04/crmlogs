@@ -1,0 +1,22 @@
+
+---------------------------------------------------
+trc file: "dev_enqrepl", trc level: 1, release: "742"
+---------------------------------------------------
+sysno      20
+sid        CP1
+systemid   390 (AMD/Intel x86_64 with Linux)
+relno      7420
+patchlevel 0
+patchno    400
+intno      20020600
+make       multithreaded, Unicode, 64 bit, optimized
+pid        2106
+
+
+[Thr 140286158757280] Sat Feb 15 03:28:34 2020
+[Thr 140286158757280] profile    /usr/sap/CP1/SYS/profile/CP1_ASCS20_sapcrmprp101
+[Thr 140286158757280] hostname   saporaprp06
+[Thr 140286158757280] IOListener::Listen: listen on port 54716 (addr 0.0.0.0)
+[Thr 140286158757280] will sleep maximal 333 ms while waiting for response
+[Thr 140286158757280] will sleep max 5000 ms when idle
+[Thr 140286158757280] will wait maximal 1000 ms for input 

@@ -1,0 +1,33 @@
+P Sat Sep 09 2017 00:00:45:808 log file opened
+P Sat Sep 09 2017 00:00:45:808 log file closed
+P Sat Sep 09 2017 05:19:01:136 log file reopened
+P Sat Sep 09 2017 05:19:01:136 initial gw/logging ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+X Sat Sep 09 2017 05:19:01:136 gateway started, pid=13239
+P Sat Sep 09 2017 05:19:01:136 gw/logging = ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+S Sat Sep 09 2017 05:19:01:136 simulation mode deactivated
+S Sat Sep 09 2017 05:19:01:136 gw/reg_no_conn_info: 1
+S Sat Sep 09 2017 05:19:01:146 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found, use internal default (mode=0)
+S Sat Sep 09 2017 05:19:01:146  P TP=* USER=* USER-HOST=* HOST=*
+S Sat Sep 09 2017 05:19:01:146 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found
+S Sat Sep 09 2017 05:19:01:146  P USER=* HOST=* TP=*
+S Sat Sep 09 2017 05:19:01:147 reginfo file /usr/sap/CP1/ASCS20/data/reginfo not found, use internal default (mode=0)
+S Sat Sep 09 2017 05:19:01:147  P TP=*
+S Sat Sep 09 2017 05:19:01:147 prxyinfo file /usr/sap/CP1/ASCS20/data/prxyinfo not found
+X Sat Sep 09 2017 17:26:55:842 gateway stopped, pid=13239
+P Sat Sep 09 2017 17:26:55:842 log file closed
+P Sat Sep 09 2017 17:31:22:221 log file reopened
+P Sat Sep 09 2017 17:31:22:221 initial gw/logging ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+X Sat Sep 09 2017 17:31:22:221 gateway started, pid=29772
+P Sat Sep 09 2017 17:31:22:221 gw/logging = ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+S Sat Sep 09 2017 17:31:22:221 simulation mode deactivated
+S Sat Sep 09 2017 17:31:22:221 gw/reg_no_conn_info: 1
+S Sat Sep 09 2017 17:31:22:234 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found, use internal default (mode=0)
+S Sat Sep 09 2017 17:31:22:234  P TP=* USER=* USER-HOST=* HOST=*
+S Sat Sep 09 2017 17:31:22:234 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found
+S Sat Sep 09 2017 17:31:22:234  P USER=* HOST=* TP=*
+S Sat Sep 09 2017 17:31:22:236 reginfo file /usr/sap/CP1/ASCS20/data/reginfo not found, use internal default (mode=0)
+S Sat Sep 09 2017 17:31:22:236  P TP=*
+S Sat Sep 09 2017 17:31:22:237 prxyinfo file /usr/sap/CP1/ASCS20/data/prxyinfo not found
+X Sat Dec 09 2017 00:19:12:138 gateway stopped, pid=29772
+X Sat Dec 09 2017 00:19:12:138 time exceeded (day), open new log file
+P Sat Dec 09 2017 00:19:12:140 log file closed

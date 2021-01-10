@@ -1,0 +1,124 @@
+
+---------------------------------------------------
+trc file: "dev_ms.new", trc level: 1, release: "742"
+---------------------------------------------------
+
+[Thr 140380665177888] Sat Feb 15 03:28:30 2020
+[Thr 140380665177888] SAP_RELEASE = 742
+[Thr 140380665177888] compatibility level = 0
+[Thr 140380665177888] Server state INIT
+[Thr 140380665177888] CGROUPS: changing prio of pid 2104 to medium
+[Thr 140380665177888] CGROUPS: disabled
+[Thr 140380665177888] MsSSetTrcLog: trc logging active, max size = 52428800 bytes
+[Thr 140380665177888] * SWITCH TRC-RESOLUTION from 1 to 1
+systemid   390 (AMD/Intel x86_64 with Linux)
+relno      7420
+patchlevel 0
+patchno    400
+intno      20020600
+make       multithreaded, Unicode, 64 bit, optimized
+pid        2104
+
+
+[Thr 140380665177888] Sat Feb 15 03:28:30 2020
+[Thr 140380665177888] ***LOG Q01=> MsSInit, MSStart (Msg Server 1 2104) [msxxserv.c   2504]
+[Thr 140380665177888] SigISetDefaultAction : default handling for signal SIGCHLD
+[Thr 140380665177888] load acl file = /usr/sap/CP1/SYS/global/ms_acl_info
+[Thr 140380665177888] MsGetOwnIpAddr: my host addresses are :
+[Thr 140380665177888]   1 : [10.254.244.207] saporaprp06.isus.emc.com (HOSTNAME)
+[Thr 140380665177888]   2 : [127.0.0.1] localhost (LOCALHOST)
+[Thr 140380665177888]   3 : [10.254.244.208] saporaprp06-vip.isus.emc.com (NILIST)
+[Thr 140380665177888]   4 : [10.254.244.103] sapcrpprp401.isus.emc.com (NILIST)
+[Thr 140380665177888]   5 : [10.254.244.12] sapnwgprp401.isus.emc.com (NILIST)
+[Thr 140380665177888]   6 : [10.254.244.50] sapsusprp401.isus.emc.com (NILIST)
+[Thr 140380665177888]   7 : [10.254.244.99] sapcrmprp101.isus.emc.com (NILIST)
+[Thr 140380665177888]   8 : [10.254.123.146] saporaprp06-mgt.isus.emc.com (NILIST)
+[Thr 140380665177888]   9 : [10.254.121.127] saporaprp06-nas.isus.emc.com (NILIST)
+[Thr 140380665177888]  10 : [10.254.176.166] saporaprp06-bkp.isus.emc.com (NILIST)
+[Thr 140380665177888]  11 : [10.254.247.216] saporaprp06-prv.isus.emc.com (NILIST)
+[Thr 140380665177888]  12 : [169.254.159.114] 169.254.159.114 (NILIST)
+[Thr 140380665177888] MsHttpInit: full qualified hostname = saporaprp06.isus.emc.com
+[Thr 140380665177888] HTTP logging is switch off
+[Thr 140380665177888] set HTTP state to LISTEN
+[Thr 140380665177888] *** HTTP port 8120 state LISTEN ***
+[Thr 140380665177888] MsHttpOwnDomain: own domain[1] = isus.emc.com
+[Thr 140380665177888] *** I listen to port sapmsCP1 (3620) ***
+[Thr 140380665177888] *** I listen to internal port 3920 (3920) ***
+[Thr 140380665177888] *** HTTP port 8120 state LISTEN ***
+[Thr 140380665177888] CUSTOMER KEY: >N1441724726<
+[Thr 140380665177888] compatibility level = 0
+[Thr 140380665177888] build version=742.2015.12.11
+[Thr 140380665177888] read logon groups from previously stored file CP1_msg_server_adtl_storage
+[Thr 140380665177888] Server state ACTIVE
+
+[Thr 140380665177888] Sat Feb 15 04:10:14 2020
+[Thr 140380665177888] LOGIN: sapcrmprp214_CP1_83 [10.254.120.238] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:10:47 2020
+[Thr 140380665177888] LOGIN: sapcrmprp201_CP1_70 [10.254.120.144] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:10:51 2020
+[Thr 140380665177888] change msgtypes of C2 (sapcrmprp214_CP1_83) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:11:06 2020
+[Thr 140380665177888] LOGIN: sapcrmprp213_CP1_82 [10.254.120.237] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:11:12 2020
+[Thr 140380665177888] LOGIN: sapcrmprp212_CP1_81 [10.254.120.155] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:11:46 2020
+[Thr 140380665177888] change msgtypes of C1 (sapcrmprp212_CP1_81) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:12:12 2020
+[Thr 140380665177888] LOGIN: sapcrmprp211_CP1_80 [10.254.120.154] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:12:44 2020
+[Thr 140380665177888] change msgtypes of C7 (sapcrmprp211_CP1_80) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:12:52 2020
+[Thr 140380665177888] LOGIN: sapcrmprp203_CP1_72 [10.254.120.146] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:12:55 2020
+[Thr 140380665177888] LOGIN: sapcrmprp209_CP1_78 [10.254.120.152] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:13:27 2020
+[Thr 140380665177888] change msgtypes of C3 (sapcrmprp209_CP1_78) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:13:32 2020
+[Thr 140380665177888] LOGIN: sapcrmprp210_CP1_79 [10.254.120.153] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:14:04 2020
+[Thr 140380665177888] change msgtypes of C8 (sapcrmprp210_CP1_79) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:14:32 2020
+[Thr 140380665177888] LOGIN: sapcrmprp204_CP1_73 [10.254.120.147] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:15:04 2020
+[Thr 140380665177888] change msgtypes of C9 (sapcrmprp204_CP1_73) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:16:05 2020
+[Thr 140380665177888] LOGIN: sapcrmprp205_CP1_74 [10.254.120.148] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:16:37 2020
+[Thr 140380665177888] change msgtypes of C10 (sapcrmprp205_CP1_74) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:17:37 2020
+[Thr 140380665177888] LOGIN: sapcrmprp206_CP1_75 [10.254.120.149] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:18:08 2020
+[Thr 140380665177888] change msgtypes of C11 (sapcrmprp206_CP1_75) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:19:17 2020
+[Thr 140380665177888] LOGIN: sapcrmprp207_CP1_76 [10.254.120.150] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:19:49 2020
+[Thr 140380665177888] change msgtypes of C12 (sapcrmprp207_CP1_76) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 04:20:37 2020
+[Thr 140380665177888] LOGIN: sapcrmprp208_CP1_77 [10.254.120.151] (DIA UPD BTC SPO UP2 ICM )
+
+[Thr 140380665177888] Sat Feb 15 04:21:09 2020
+[Thr 140380665177888] change msgtypes of C15 (sapcrmprp208_CP1_77) from DIA UPD BTC SPO UP2 ICM  to DIA UPD SPO UP2 ICM 
+
+[Thr 140380665177888] Sat Feb 15 06:17:50 2020
+[Thr 140380665177888] LOGIN: sapcrmprp202_CP1_71 [10.254.120.145] (DIA UPD BTC SPO UP2 ICM )

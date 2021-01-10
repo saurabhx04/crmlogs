@@ -1,0 +1,15 @@
+P Sat Nov 17 2018 00:29:49:077 log file opened
+P Sat Nov 17 2018 00:29:49:077 log file closed
+P Sat Nov 17 2018 04:17:18:467 log file reopened
+P Sat Nov 17 2018 04:17:18:467 initial gw/logging ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+X Sat Nov 17 2018 04:17:18:467 gateway started, pid=2883
+P Sat Nov 17 2018 04:17:18:467 gw/logging = ACTION=Ss LOGFILE=gw_log-%y-%m-%d SWITCHTF=day MAXSIZEKB=100
+S Sat Nov 17 2018 04:17:18:467 simulation mode deactivated
+S Sat Nov 17 2018 04:17:18:467 gw/reg_no_conn_info: 1
+S Sat Nov 17 2018 04:17:18:484 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found, use internal default (mode=0)
+S Sat Nov 17 2018 04:17:18:484  P TP=* USER=* USER-HOST=* HOST=*
+S Sat Nov 17 2018 04:17:18:484 secinfo file /usr/sap/CP1/ASCS20/data/secinfo not found
+S Sat Nov 17 2018 04:17:18:484  P USER=* HOST=* TP=*
+S Sat Nov 17 2018 04:17:18:485 reginfo file /usr/sap/CP1/ASCS20/data/reginfo not found, use internal default (mode=0)
+S Sat Nov 17 2018 04:17:18:485  P TP=*
+S Sat Nov 17 2018 04:17:18:486 prxyinfo file /usr/sap/CP1/ASCS20/data/prxyinfo not found

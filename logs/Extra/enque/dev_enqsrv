@@ -1,0 +1,39 @@
+
+---------------------------------------------------
+trc file: "dev_enqsrv", trc level: 1, release: "742"
+---------------------------------------------------
+sysno      20
+sid        CP1
+systemid   390 (AMD/Intel x86_64 with Linux)
+relno      7420
+patchlevel 0
+patchno    400
+intno      20020600
+make       multithreaded, Unicode, 64 bit, optimized
+pid        2106
+
+
+[Thr 140288918042400] Sat Feb 15 03:28:30 2020
+[Thr 140288918042400] profile    /usr/sap/CP1/SYS/profile/CP1_ASCS20_sapcrmprp101
+[Thr 140288918042400] hostname   saporaprp06
+[Thr 140288918042400] Listen successful on port/service sapdp20
+
+[Thr 140288918042400] Sat Feb 15 03:28:31 2020
+[Thr 140288918042400] CGROUPS: changing prio of pid 2106 to high
+[Thr 140288918042400] CGROUPS: disabled
+[Thr 140288918042400] EnqInitCleanupServer: Shm of enqueue table (rc = 3) does not exist, nothing to clean up
+[Thr 140288918042400] InitReplHooks: Tracing enqueue and replication statistics is switched off.
+[Thr 140288918042400] initialize_global: Enqueue server started with replication functionality
+[Thr 140288918042400] Enqueue: EnqMemStartupAction Utc=1581755311, attach_only=0
+[Thr 140288918042400] EnqLockTableSizeCalculate: session quota = 100%
+[Thr 140288918042400] EnqLockTableCreate: create lock table (size = 1024000000)
+[Thr 140288918042400] EnqLockTableMapToLocalContext: enque/use_pfclock2 = FALSE
+
+[Thr 140288918042400] Sat Feb 15 03:28:33 2020
+[Thr 140288918042400] ShadowTable:attach: ShmCreate - pool doesn't exist
+[Thr 140288918042400] EnqRepRestoreFromReplica: failed to attach to old replication table: rc=-1
+[Thr 140288918042400] enque/backup_file disabled in enserver environment
+
+[Thr 140288918042400] Sat Feb 15 03:28:34 2020
+[Thr 140288918042400] ***LOG GEZ=> Server start [encllog.cpp  550]
+[Thr 140288918042400] Enqueue server start with instance number 20

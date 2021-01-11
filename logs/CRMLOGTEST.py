@@ -13,7 +13,7 @@ WarnMSG = 'NA'
 wp = 'NA'
 PID = 'NA'
 
-mypath = r"C:\Users\singhs113\Desktop\crmlogs\logs"
+mypath = r"C:\Users\singhs113\projects\crmlogs\logs"
 for path, subdirs, files in os.walk(mypath):
     # With this for loop getting work process names and puttinh it into name variable
 
